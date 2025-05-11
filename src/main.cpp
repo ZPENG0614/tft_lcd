@@ -9,6 +9,7 @@ void LED_Flash(int time);
 void callback_func(const uint8_t *mac, const uint8_t *incomingData, int len);
 uint8_t check_num = 0;
 uint8_t send_data = 0;
+
 uint8_t add_data = 1;
 void callback_func2(const uint8_t *mac, const uint8_t *incomingData, int len);
 
